@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+     integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+     crossorigin=""/>
+    <title>Document</title>
+</head>
+<body>
+   <div class="wrapper">
+    <div class="contact">
+        <h1>Nous contacter</h1>
+        <div class="contact-items">
+            <div class="contect-item">
+                <a href="tel:0265789441">
+                    <ion-icon name="call"></ion-icon>
+                    0X.XX.XX.XX.XX
+                </a>
+            </div>
+            <div class="contect-item">
+                <a href="mailto@exemple.com">
+                    <ion-icon name="mail"></ion-icon>
+                    mailto@exemple.com
+                </a>
+            </div>
+            <div class="contect-item">
+                <a href="www.exemple.com">
+                    <ion-icon name="planet"></ion-icon>
+                    www.exemple.com
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="map"></div>
+   </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+     <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+ integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+ crossorigin=""></script>
+    <script src="/app.js"></script>
+</body>
+</html>
